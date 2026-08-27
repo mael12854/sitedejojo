@@ -5,16 +5,19 @@
  <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
  <title>Site de Jojo - Photos et exploits de Jojo</title>
  <a1>Bienvenue à ce site de Jojo, ici seront répertoriés tous ses petits exploits, accompagnés de photos. Il y a des photos toutes seules aussi.</a1>
 
-  <!-- Lien direct forcé sans préconnexions (évite les blocages Chrome) -->
+  <!-- Liens de préconnexion obligatoires pour Chrome et Vercel -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+  
+  <!-- Appel de la police avec forçage de l'affichage textuel (display=swap) -->
   <link href="https://googleapis.com" rel="stylesheet">
 
   <style>
-    /* On force TOUS les éléments possibles à adopter la police */
-    *, html, body, h1, h2, p, span, a {
+    /* Application globale stricte */
+    html, body, p, h1, h2, h3, span, div, li, a {
       font-family: 'Playwrite DE LA Guides', cursive !important;
     }
   </style>
