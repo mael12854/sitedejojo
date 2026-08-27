@@ -1,0 +1,13 @@
+/* 1. Déclaration unique de la police avec un slash / au début pour la racine */
+@font-face {
+  font-family: 'MonEcritureJojo';
+  src: url('/PlaywriteDELA-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 2. Style automatique pour TOUT le site */
+body {
+  font-family: 'MonEcritureJojo', sans-serif;
+}
